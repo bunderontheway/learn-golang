@@ -9,8 +9,10 @@ func main() {
     fmt.Println("Nilai anda A")  
   }else if nilai > 75{
     fmt.Println("Nilai anda B")
-  }else if Nilai > 50 && nilai < 75 {
+  }else if nilai >= 50 && nilai <= 75 {
     fmt.Println("Nilai anda C")
   }else {
     fmt.Println("Anda harus mengulang")
+  }
+  
 }
