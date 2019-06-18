@@ -10,8 +10,9 @@ func main(){
     fmt.Println("Excellent")
   case 8 :
     fmt.Println("Good Job")
-  case 6 :
-    fmt.Println("NICE Try")
   case 4 :
     fmt.Println("Try Again")
+  default :
+    fmt.Println("Not Bad")
+  }
 }
