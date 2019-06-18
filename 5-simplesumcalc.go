@@ -5,10 +5,10 @@ import "fmt"
 func main(){
   fmt.Print("Masukkan angka pertama  :")
   var angkaPertama int
-  fmt.Scanf(&angkaPertama)
+  fmt.Scanln(&angkaPertama)
   fmt.Print("\n Masukkan angka kedua    :")
   var angkaKedua int
-  fmt.Scanf(&angkaKedua)
+  fmt.Scanln(&angkaKedua)
   
   var hasilJumlah int = angkaPertama + angkaKedua
   
