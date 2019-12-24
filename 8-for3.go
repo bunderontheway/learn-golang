@@ -10,7 +10,7 @@ func main(){
     
     i++
     
-    if i ==$ {
+    if i == 4 {
       break
     }
   
